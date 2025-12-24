@@ -5,31 +5,31 @@ import taproomImage from '@/assets/taproom-interior.jpg';
 const faqItems = [
   {
     question: 'Are you pet friendly?',
-    answer: 'We love dogs, but to make sure everyone stays safe, OpenTap is a pet-free environment. We welcome service dogs.',
+    answer: 'We love dogs, but to make sure everyone stays safe, Brew & Hops is a pet-free environment. We welcome service dogs.',
   },
   {
-    question: 'Do you allow outside food?',
-    answer: 'We have food trucks seven days a week and kindly ask our guests to support these amazing local food trucks.',
+    question: 'What food do you serve?',
+    answer: 'We offer authentic Indian snacks and are expanding to a full menu of Indian fusion dishes. The perfect pairing for your self-poured beverages!',
   },
   {
     question: 'Do you have gluten-free alcoholic beverage options?',
-    answer: 'Yes! We proudly offer a variety of gluten-reduced beers and gluten-free ciders, seltzers, wines, and craft sodas.',
+    answer: 'Yes! We proudly offer a variety of gluten-reduced beers and gluten-free ciders, wines, and kombucha.',
   },
   {
     question: 'Do you have non-alcoholic options?',
-    answer: 'We have a whole wall dedicated to non-alcoholic beer, mocktails, craft sodas and coffee!',
+    answer: 'Absolutely! We have taps dedicated to non-alcoholic beer, kombucha, and other NA options.',
   },
   {
     question: 'Do you take reservations?',
-    answer: "OpenTap is first-come, first-served. If you're interested in reserving a private space for an event, please see our Private Rentals page.",
+    answer: "Brew & Hops is first-come, first-served. If you're interested in reserving a private space for an event, please see our Private Parties page.",
   },
   {
-    question: 'What do you mean by open-serve?',
-    answer: "There's no waiting at OpenTap! When you arrive, we'll program a wristband with your credit card information and ID. From there you are free to pour a drink from our huge selection! Simply tap your wristband to the beverage of your choice and start pouring -- as much or as little as you like. Each tap has a screen that provides information about the beverage, including a short description, alcohol content, and price per ounce. You're only charged for the ounces you pour. When you're done exploring and tasting, you drop your band in the easy checkout bin or meet us at the register. That's it. Simple.",
+    question: 'What do you mean by self-pour?',
+    answer: "There's no waiting at Brew & Hops! When you arrive, we'll program a wristband with your credit card information and ID. From there you are free to pour from any of our 42 taps! Simply tap your wristband to the beverage of your choice and start pouring — as much or as little as you like. Each tap has a screen that provides information about the beverage, including a short description, alcohol content, and price per ounce. You're only charged for the ounces you pour. When you're done exploring and tasting, you drop your band in the easy checkout bin or meet us at the register. That's it. Simple.",
   },
   {
     question: 'How old do I have to be to visit?',
-    answer: 'OpenTap is 21+ only. We require valid ID for all guests.',
+    answer: 'Brew & Hops is 21+ only. We require valid ID for all guests.',
   },
   {
     question: 'What forms of payment do you accept?',
@@ -45,7 +45,7 @@ const FAQ = () => {
         <div className="absolute inset-0">
           <img
             src={taproomImage}
-            alt="OpenTap taproom"
+            alt="Brew & Hops taproom"
             className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />

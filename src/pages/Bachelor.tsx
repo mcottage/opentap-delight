@@ -15,7 +15,7 @@ const Bachelor = () => {
       <section className="relative h-[60vh] md:h-[70vh] overflow-hidden">
         <img
           src={bachelorImage}
-          alt="The Charlotte Bachelor Live on Stage"
+          alt="The Chamblee Bachelor Live on Stage"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
@@ -35,10 +35,10 @@ const Bachelor = () => {
                 <Heart className="w-8 h-8 text-destructive fill-destructive" />
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
-                The Charlotte Bachelor – Live on Stage
+                The Chamblee Bachelor – Live on Stage
               </h1>
               <p className="text-lg text-muted-foreground">
-                Charlotte singles — we're looking for YOU! Sick of the apps? Ready to meet in person, have some fun, and maybe even find your person?
+                Chamblee singles — we're looking for YOU! Sick of the apps? Ready to meet in person, have some fun, and maybe even find your person?
               </p>
             </motion.div>
 
@@ -49,17 +49,17 @@ const Bachelor = () => {
               className="prose prose-invert max-w-none mb-12"
             >
               <p className="text-foreground text-lg leading-relaxed mb-6">
-                <strong className="text-primary">OpenTap is casting now</strong> for <em>The Charlotte Bachelor – Live on Stage</em> — a wild, unfiltered dating show where real singles, bold conversations, and hilarious curveballs collide.
+                <strong className="text-primary">Brew & Hops is casting now</strong> for <em>The Chamblee Bachelor – Live on Stage</em> — a wild, unfiltered dating show where real singles, bold conversations, and hilarious curveballs collide.
               </p>
               
               <p className="text-foreground text-lg leading-relaxed mb-6">
-                <strong className="text-primary">The Twist:</strong> The Charlotte Bachelor and the Hopefuls will be <em>blindfolded</em> to keep the suspense alive until the big reveal and ultimate match.
+                <strong className="text-primary">The Twist:</strong> The Chamblee Bachelor and the Hopefuls will be <em>blindfolded</em> to keep the suspense alive until the big reveal and ultimate match.
               </p>
 
               <div className="bg-secondary rounded-lg p-6 mb-8">
                 <h3 className="text-xl font-display font-bold text-foreground mb-4">We're casting:</h3>
                 <ul className="space-y-2 text-foreground">
-                  <li><strong className="text-primary">The Charlotte Bachelor</strong> – the star of the show</li>
+                  <li><strong className="text-primary">The Chamblee Bachelor</strong> – the star of the show</li>
                   <li><strong className="text-primary">Hopefuls</strong> – brave singles ready to shoot their shot on stage in front of a live audience</li>
                 </ul>
               </div>
@@ -135,7 +135,7 @@ const Bachelor = () => {
                       <SelectValue placeholder="Select a role" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="bachelor">The Charlotte Bachelor</SelectItem>
+                      <SelectItem value="bachelor">The Chamblee Bachelor</SelectItem>
                       <SelectItem value="hopeful">Hopeful</SelectItem>
                     </SelectContent>
                   </Select>

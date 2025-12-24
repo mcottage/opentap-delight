@@ -11,21 +11,21 @@ import mezzanineImage from '@/assets/mezzanine.jpg';
 
 const venues = [
   {
-    name: 'Treehouse Mezzanine',
+    name: 'Private Lounge',
     capacity: '25-40 guests',
-    description: 'Our elevated private space with stunning views of the taproom below. Perfect for corporate events and intimate celebrations.',
+    description: 'Our intimate private space perfect for corporate events and small celebrations.',
     image: mezzanineImage,
   },
   {
-    name: 'The Lawn',
+    name: 'Main Taproom',
     capacity: '50-100 guests',
-    description: 'Our expansive outdoor turf area with games and flexible seating. Ideal for large gatherings and celebrations.',
+    description: 'Our expansive taproom with 42 self-pour taps, 150-inch LED screen, and games. Ideal for large gatherings.',
     image: mezzanineImage,
   },
   {
     name: 'Full Venue Buyout',
-    capacity: '150+ guests',
-    description: 'Exclusive access to the entire OpenTap experience. Perfect for weddings, large corporate events, and milestone celebrations.',
+    capacity: '100+ guests',
+    description: 'Exclusive access to the entire Brew & Hops experience. Perfect for weddings, large corporate events, and milestone celebrations.',
     image: partyImage,
   },
 ];
@@ -37,7 +37,7 @@ const PrivateParties = () => {
       <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
         <img
           src={partyImage}
-          alt="Host your next party at OpenTap"
+          alt="Host your next party at Brew & Hops"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
@@ -48,7 +48,7 @@ const PrivateParties = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground text-center"
           >
-            Host your next Party with OpenTap.
+            Host your next Party at Brew & Hops
           </motion.h1>
         </div>
       </section>
@@ -156,8 +156,8 @@ const PrivateParties = () => {
                       <SelectValue placeholder="Select a space" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="mezzanine">Treehouse Mezzanine</SelectItem>
-                      <SelectItem value="lawn">The Lawn</SelectItem>
+                      <SelectItem value="lounge">Private Lounge</SelectItem>
+                      <SelectItem value="taproom">Main Taproom</SelectItem>
                       <SelectItem value="full">Full Venue Buyout</SelectItem>
                     </SelectContent>
                   </Select>
