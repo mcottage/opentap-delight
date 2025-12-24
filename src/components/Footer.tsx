@@ -10,10 +10,10 @@ export const Footer = () => {
           {/* Logo and Social */}
           <div className="text-center md:text-left">
             <Link to="/" className="inline-block">
-              <img src={logo} alt="Pines Brewing Company" className="h-20 w-auto mx-auto md:mx-0" />
+              <img src={logo} alt="Brew & Hops" className="h-20 w-auto mx-auto md:mx-0" />
             </Link>
             <p className="text-muted-foreground mt-4 mb-6">
-              Craft Beer Brewed in the Pines
+              Chamblee's Self-Pour Taproom
             </p>
             <div className="flex items-center gap-4 justify-center md:justify-start">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded bg-secondary flex items-center justify-center text-foreground hover:text-primary hover:bg-secondary/80 transition-colors">
@@ -46,19 +46,19 @@ export const Footer = () => {
               Location
             </h3>
             <address className="text-muted-foreground not-italic space-y-2 font-body">
-              <p>2412 Thrift Rd</p>
-              <p>Charlotte, NC 28208</p>
+              <p>5251 Peachtree Blvd #103</p>
+              <p>Chamblee, GA 30341</p>
             </address>
-            <a href="tel:+17045551234" className="text-primary hover:text-primary/80 transition-colors mt-4 flex items-center gap-2 justify-center md:justify-start font-body">
+            <a href="tel:+16785551234" className="text-primary hover:text-primary/80 transition-colors mt-4 flex items-center gap-2 justify-center md:justify-start font-body">
               <Phone className="w-4 h-4" />
-              (704) 555-1234
+              (678) 555-1234
             </a>
           </div>
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-muted-foreground text-sm font-body">
-            © {new Date().getFullYear()} Pines Brewing Company. All rights reserved.
+            © {new Date().getFullYear()} Brew & Hops. All rights reserved.
           </p>
         </div>
       </div>

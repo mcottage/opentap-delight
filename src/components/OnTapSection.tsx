@@ -30,7 +30,7 @@ export const OnTapSection = () => {
           </h2>
           
           <p className="text-muted-foreground text-lg mb-8 font-body">
-            Over 60 taps featuring craft beers, ciders, wines, seltzers, and non-alcoholic options. There's something for everyone.
+            42 self-pour taps featuring local Georgia breweries and national craft favorites. 30 taps of beer, cider, kombucha & NA options, plus 12 wines. Pay by the ounce!
           </p>
 
           <Link to="/on-tap">

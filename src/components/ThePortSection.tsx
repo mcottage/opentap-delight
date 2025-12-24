@@ -17,7 +17,7 @@ export const ThePortSection = () => {
           >
             <img
               src={taproomImage}
-              alt="Interior of Pines Brewing taproom with craft beer taps"
+              alt="Interior of Brew & Hops taproom with self-pour taps"
               className="w-full h-80 md:h-[500px] object-cover rounded shadow-lg"
             />
           </motion.div>
@@ -31,13 +31,13 @@ export const ThePortSection = () => {
           >
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-display uppercase tracking-wider text-primary mb-2">
-                The Port
+                Indian Fusion Kitchen
               </h2>
               <div className="w-16 h-1 bg-primary mx-auto md:mx-0" />
             </div>
             
             <p className="text-foreground text-lg leading-relaxed mb-8 font-body">
-              Enjoy local food trucks at The Port, our covered, all-weather food truck setup serving delicious eats seven days a week. Check the calendar to see which truck is here tonight.
+              Start with our selection of authentic Indian snacks, with a full menu of Indian fusion dishes coming soon. The perfect pairing for your self-poured craft beverages.
             </p>
 
             <Link to="/food-trucks">
@@ -46,7 +46,7 @@ export const ThePortSection = () => {
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-display uppercase tracking-wider px-8"
               >
-                Calendar
+                View Menu
               </Button>
             </Link>
           </motion.div>
