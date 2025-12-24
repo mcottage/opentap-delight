@@ -13,10 +13,10 @@ export const AboutSection = () => {
           className="text-center max-w-4xl mx-auto mb-12"
         >
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-display uppercase tracking-wider text-foreground mb-6">
-            Brewed in the Pines
+            Pour Your Own Adventure
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl leading-relaxed font-body">
-            Step into a world of flavor and creativity at Pines Brewing, where local food trucks pull directly into our covered, all-weather food truck port connected to our taproom. With great food, over 60 taps featuring a wide selection of craft drinks, including non-alcoholic options, and a welcoming atmosphere, Pines offers a relaxed place to gather and unwind.
+            Welcome to Brew & Hops, Chamblee's first self-pour taproom! With 42 taps featuring local Georgia breweries and select national craft favorites, you pay by the ounce. Enjoy 30 taps of beer, cider, kombucha, and non-alcoholic options, plus 12 wines. Catch college sports on our 150-inch LED screen, play shuffleboard and board games, or try our four-ounce cup flights for a unique tasting experience.
           </p>
         </motion.div>
 
@@ -30,9 +30,9 @@ export const AboutSection = () => {
             className="flex flex-col items-center"
           >
             <div className="w-20 h-20 md:w-24 md:h-24 rounded bg-primary/20 border-2 border-primary flex items-center justify-center">
-              <span className="text-primary font-display font-bold text-2xl md:text-3xl">NC</span>
+              <span className="text-primary font-display font-bold text-2xl md:text-3xl">GA</span>
             </div>
-            <span className="mt-2 text-muted-foreground text-sm font-body">North Carolina</span>
+            <span className="mt-2 text-muted-foreground text-sm font-body">Georgia</span>
           </motion.div>
 
           <motion.div

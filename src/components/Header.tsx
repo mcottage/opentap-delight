@@ -40,7 +40,7 @@ export const Header = () => {
 
           <div className="flex-1 flex justify-center">
             <Link to="/" className="block">
-              <img src={logo} alt="Pines Brewing Company" className="h-16 md:h-20 w-auto" />
+              <img src={logo} alt="Brew & Hops" className="h-16 md:h-20 w-auto" />
             </Link>
           </div>
 

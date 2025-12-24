@@ -13,7 +13,7 @@ export const HeroSection = () => {
       >
         <img
           src={heroImage}
-          alt="Aerial view of Pines Brewing Company taproom in the forest"
+          alt="Brew & Hops self-pour taproom in Chamblee"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/20 to-background" />
@@ -26,9 +26,9 @@ export const HeroSection = () => {
         transition={{ delay: 0.3, duration: 0.8 }}
         className="absolute inset-0 flex flex-col items-center justify-center"
       >
-        <img src={logo} alt="Pines Brewing Company" className="h-32 md:h-48 w-auto mb-6" />
+        <img src={logo} alt="Brew & Hops" className="h-32 md:h-48 w-auto mb-6" />
         <p className="font-display uppercase tracking-[0.3em] text-foreground/90 text-sm md:text-base">
-          Craft Beer • Forest Vibes
+          Self-Pour • 42 Taps • Chamblee, GA
         </p>
       </motion.div>
     </section>
