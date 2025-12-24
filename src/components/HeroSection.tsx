@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import heroImage from '@/assets/hero-aerial.jpg';
+import logo from '@/assets/logo.svg';
 
 export const HeroSection = () => {
   return (
@@ -12,24 +13,23 @@ export const HeroSection = () => {
       >
         <img
           src={heroImage}
-          alt="Aerial view of OpenTap taproom - a modern log cabin style restaurant"
+          alt="Aerial view of Pines Brewing Company taproom in the forest"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/20 to-background" />
       </motion.div>
       
-      {/* Play button overlay */}
+      {/* Logo overlay */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-        className="absolute inset-0 flex items-center justify-center"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        className="absolute inset-0 flex flex-col items-center justify-center"
       >
-        <button className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-secondary/80 backdrop-blur-sm flex items-center justify-center hover:bg-secondary transition-colors group">
-          <svg className="w-6 h-6 md:w-8 md:h-8 text-foreground ml-1" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M8 5v14l11-7z" />
-          </svg>
-        </button>
+        <img src={logo} alt="Pines Brewing Company" className="h-32 md:h-48 w-auto mb-6" />
+        <p className="font-display uppercase tracking-[0.3em] text-foreground/90 text-sm md:text-base">
+          Craft Beer • Forest Vibes
+        </p>
       </motion.div>
     </section>
   );

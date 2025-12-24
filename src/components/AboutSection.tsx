@@ -12,11 +12,11 @@ export const AboutSection = () => {
           viewport={{ once: true }}
           className="text-center max-w-4xl mx-auto mb-12"
         >
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
-            A Modern Log Cabin Taproom!
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-display uppercase tracking-wider text-foreground mb-6">
+            Brewed in the Pines
           </h1>
-          <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-            Step into a world of flavor and creativity at OpenTap, where local food trucks pull directly into our covered, all-weather food truck port connected to our taproom. With great food, over 60 taps featuring a wide selection of craft drinks, including non-alcoholic options, and a welcoming atmosphere, OpenTap offers a relaxed place to gather and unwind.
+          <p className="text-muted-foreground text-lg md:text-xl leading-relaxed font-body">
+            Step into a world of flavor and creativity at Pines Brewing, where local food trucks pull directly into our covered, all-weather food truck port connected to our taproom. With great food, over 60 taps featuring a wide selection of craft drinks, including non-alcoholic options, and a welcoming atmosphere, Pines offers a relaxed place to gather and unwind.
           </p>
         </motion.div>
 
@@ -29,10 +29,10 @@ export const AboutSection = () => {
             viewport={{ once: true }}
             className="flex flex-col items-center"
           >
-            <div className="w-20 h-20 md:w-24 md:h-24 rounded-lg bg-primary/20 border-2 border-primary flex items-center justify-center">
+            <div className="w-20 h-20 md:w-24 md:h-24 rounded bg-primary/20 border-2 border-primary flex items-center justify-center">
               <span className="text-primary font-display font-bold text-2xl md:text-3xl">NC</span>
             </div>
-            <span className="mt-2 text-muted-foreground text-sm">North Carolina</span>
+            <span className="mt-2 text-muted-foreground text-sm font-body">North Carolina</span>
           </motion.div>
 
           <motion.div
@@ -45,7 +45,7 @@ export const AboutSection = () => {
             <img
               src={pizzaImage}
               alt="Delicious pizza slice with melted cheese and a craft beer"
-              className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-lg shadow-lg"
+              className="w-72 h-72 md:w-96 md:h-96 object-cover rounded shadow-lg"
             />
           </motion.div>
         </div>
