@@ -19,7 +19,7 @@ const OurStory = () => {
               Our Story
             </h1>
             <p className="text-xl text-muted-foreground">
-              How a South Charlotte family created something special in their neck of the woods.
+              How a Chamblee couple is bringing self-pour craft beverages to the community.
             </p>
           </motion.div>
 
@@ -32,7 +32,7 @@ const OurStory = () => {
           >
             <img
               src={heroImage}
-              alt="OpenTap taproom aerial view"
+              alt="Brew & Hops taproom"
               className="w-full h-[400px] md:h-[500px] object-cover rounded-xl shadow-lg"
             />
           </motion.div>
@@ -48,25 +48,25 @@ const OurStory = () => {
             >
               <h2 className="text-3xl font-display font-bold text-primary mb-6">The Beginning</h2>
               <p className="text-foreground leading-relaxed mb-6">
-                OpenTap was created by Scott and Brooke Thorne, and their son Benjamin. An outdoorsy family who truly were scratching their own itch. They love the craft beer experience and being a South Charlotte family, they wanted to create something in their neck of the woods…and that's exactly what they did.
+                Brew & Hops was created by Chinmaya and Krishna Desai, a couple with a passion for craft beverages and community. They worked closely with the city of Chamblee to update local ordinances allowing self-pour taps, making Brew & Hops a unique and pioneering addition to the area.
               </p>
               
-              <h2 className="text-3xl font-display font-bold text-primary mb-6">A New Category</h2>
+              <h2 className="text-3xl font-display font-bold text-primary mb-6">A New Concept</h2>
               <p className="text-foreground leading-relaxed mb-6">
-                OpenTap is a new category in craft beer. We're not a brewery, bar, or restaurant…we're an OpenTap! We care deeply about the products we serve and the people who make them. We work very closely with brewers, distributors, and manufacturers to curate a huge draft selection.
+                Brew & Hops is Chamblee's first self-pour taproom. We're not a traditional bar or restaurant — we're something new! With 42 taps featuring local Georgia breweries and select national craft favorites, you pour what you want and pay by the ounce. It's a unique tasting experience that puts you in control.
               </p>
 
               <h2 className="text-3xl font-display font-bold text-primary mb-6">The Experience</h2>
               <p className="text-foreground leading-relaxed mb-6">
-                We've removed all the hurdles and sticking points associated with normal spots — flagging down a bartender, waiting to be seated, feeling pressure to leave after eating. At OpenTap, guests simply walk in and pour a drink within seconds.
+                We've created a space where you can explore and discover new favorites at your own pace. No waiting for a bartender — simply tap your wristband and pour. With 30 taps dedicated to beer, cider, kombucha, and non-alcoholic options, plus 12 wines, there's something for everyone.
               </p>
               <p className="text-foreground leading-relaxed mb-6">
-                Our craft beer experience is an inspiring modern log cabin design. Boasting unique features like an 18-foot-tall indoor abstract tree, a mezzanine with a cantilever, putting green, 3000 sq. ft. of turf, and huge accordion doors creating an indoor-outdoor experience.
+                Catch college sports on our 150-inch LED screen, challenge friends to shuffleboard, or enjoy our selection of board games. Try our four-ounce cup flights for the ultimate tasting experience.
               </p>
 
-              <h2 className="text-3xl font-display font-bold text-primary mb-6">Open to Whatever!</h2>
+              <h2 className="text-3xl font-display font-bold text-primary mb-6">Indian Fusion Flavors</h2>
               <p className="text-foreground leading-relaxed">
-                At OpenTap, we're "Open to Whatever!" We have a ton of beer, wine, cocktails, and craft sodas for folks to enjoy. Whether you're a craft beer enthusiast or just looking for a great place to hang out with friends and family, OpenTap welcomes you.
+                We're starting with a selection of authentic Indian snacks, with plans to expand to a full menu of Indian fusion dishes. It's the perfect pairing for your self-poured craft beverages. Whether you're a craft beer enthusiast or just looking for a unique place to hang out with friends and family, Brew & Hops welcomes you.
               </p>
             </motion.div>
 
@@ -80,13 +80,13 @@ const OurStory = () => {
             >
               <img
                 src={teamImage}
-                alt="OpenTap team"
+                alt="Brew & Hops team"
                 className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
               <div>
                 <h2 className="text-3xl font-display font-bold text-primary mb-4">Join the Family</h2>
                 <p className="text-foreground leading-relaxed mb-6">
-                  Our amazing team is what makes OpenTap special. From our Taproom Ambassadors to our events team, everyone plays a role in creating memorable experiences for our guests.
+                  Our amazing team is what makes Brew & Hops special. From our Taproom Ambassadors to our events team, everyone plays a role in creating memorable experiences for our guests.
                 </p>
                 <p className="text-muted-foreground">
                   Interested in joining our team? Visit our Careers page to see current openings.

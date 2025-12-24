@@ -26,7 +26,7 @@ const events = [
   },
   {
     day: 'Thursday',
-    name: 'The Charlotte Bachelor',
+    name: 'The Chamblee Bachelor',
     time: '8PM - 10PM',
     description: 'Our live dating show! Watch singles mingle on stage in this hilarious event.',
     icon: Calendar,
@@ -40,9 +40,9 @@ const events = [
   },
   {
     day: 'Saturday',
-    name: 'Weekend Vibes',
+    name: 'Game Day',
     time: '12PM - 11PM',
-    description: 'Extended hours, great food trucks, and the best craft drink selection in Charlotte.',
+    description: 'Catch all the college sports action on our 150-inch LED screen with great craft drinks.',
     icon: Beer,
   },
   {
@@ -70,7 +70,7 @@ const WeeklyEvents = () => {
               Weekly Events
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              There's always something happening at OpenTap. Check out our weekly lineup of events!
+              There's always something happening at Brew & Hops. Check out our weekly lineup of events!
             </p>
           </motion.div>
 

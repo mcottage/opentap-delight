@@ -23,7 +23,7 @@ const OpenMicNight = () => {
               </div>
               
               <p className="text-lg text-foreground mb-6 leading-relaxed">
-                Take the stage at OpenTap's Open Mic Night! Whether you're a seasoned performer or it's your first time, we welcome all talents — singers, comedians, poets, musicians, and more.
+                Take the stage at Brew & Hops' Open Mic Night! Whether you're a seasoned performer or it's your first time, we welcome all talents — singers, comedians, poets, musicians, and more.
               </p>
 
               <div className="bg-secondary rounded-lg p-6 mb-8 space-y-4">
@@ -58,7 +58,7 @@ const OpenMicNight = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary">•</span>
-                    <span>Food trucks on-site</span>
+                    <span>Delicious Indian snacks on-site</span>
                   </li>
                 </ul>
               </div>
@@ -75,7 +75,7 @@ const OpenMicNight = () => {
             >
               <img
                 src={openMicImage}
-                alt="Open Mic Night at OpenTap"
+                alt="Open Mic Night at Brew & Hops"
                 className="w-full h-[500px] object-cover rounded-xl shadow-lg"
               />
             </motion.div>

@@ -6,28 +6,28 @@ import taproomImage from '@/assets/taproom-interior.jpg';
 
 const categories = [
   {
-    name: 'Craft Beer',
-    count: '40+',
+    name: 'Beer & Cider',
+    count: '30',
     icon: Beer,
-    description: 'IPAs, Stouts, Lagers, Sours, and more from local and national breweries.',
+    description: 'Local Georgia breweries and national craft favorites including IPAs, lagers, stouts, ciders, and kombucha.',
   },
   {
     name: 'Wine',
-    count: '10+',
+    count: '12',
     icon: Wine,
     description: 'Red, white, rosé, and sparkling wines on tap for the freshest pour.',
   },
   {
-    name: 'Seltzers & Ciders',
-    count: '8+',
-    icon: Droplets,
-    description: 'Refreshing hard seltzers and craft ciders for lighter options.',
+    name: 'Non-Alcoholic',
+    count: 'Various',
+    icon: Coffee,
+    description: 'NA beers, kombucha, and other refreshing non-alcoholic options.',
   },
   {
-    name: 'Non-Alcoholic',
-    count: '12+',
-    icon: Coffee,
-    description: 'NA beers, mocktails, craft sodas, and specialty coffee drinks.',
+    name: 'Pay By The Ounce',
+    count: '42 Taps',
+    icon: Droplets,
+    description: 'Pour exactly what you want — from a taste to a full glass. Only pay for what you pour!',
   },
 ];
 
@@ -38,7 +38,7 @@ const OnTap = () => {
       <section className="relative h-[50vh] overflow-hidden">
         <img
           src={taproomImage}
-          alt="OpenTap bar with taps"
+          alt="Brew & Hops self-pour taps"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
@@ -53,7 +53,7 @@ const OnTap = () => {
               On Tap Menu
             </h1>
             <p className="text-xl text-muted-foreground">
-              Over 60 taps of craft drinks
+              42 self-pour taps • Pay by the ounce
             </p>
           </motion.div>
         </div>
@@ -124,10 +124,8 @@ const OnTap = () => {
                 </p>
               </div>
             </div>
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-              <a href="https://untappd.com/v/opentap/11838659" target="_blank" rel="noopener noreferrer">
-                View Full Menu on Untappd
-              </a>
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              View Full Menu
             </Button>
           </motion.div>
         </div>
