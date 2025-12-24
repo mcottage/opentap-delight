@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Beer } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const OnTapSection = () => {
   return (
@@ -24,20 +25,22 @@ export const OnTapSection = () => {
             <Beer className="w-10 h-10 text-primary" />
           </div>
           
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display uppercase tracking-wider text-foreground mb-6">
             On Tap Menu
           </h2>
           
-          <p className="text-muted-foreground text-lg mb-8">
+          <p className="text-muted-foreground text-lg mb-8 font-body">
             Over 60 taps featuring craft beers, ciders, wines, seltzers, and non-alcoholic options. There's something for everyone.
           </p>
 
-          <Button 
-            size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-8"
-          >
-            View Full Menu
-          </Button>
+          <Link to="/on-tap">
+            <Button 
+              size="lg"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 font-display uppercase tracking-wider px-8"
+            >
+              View Full Menu
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>

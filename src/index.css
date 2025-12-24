@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,103 +6,104 @@
 
 @layer base {
   :root {
-    --background: 210 40% 12%;
+    --background: 90 20% 8%;
     --foreground: 45 30% 95%;
 
-    --card: 210 45% 15%;
+    --card: 90 25% 12%;
     --card-foreground: 45 30% 95%;
 
-    --popover: 210 45% 15%;
+    --popover: 90 25% 12%;
     --popover-foreground: 45 30% 95%;
 
-    --primary: 174 55% 55%;
-    --primary-foreground: 210 40% 12%;
+    --primary: 72 60% 35%;
+    --primary-foreground: 45 30% 95%;
 
-    --secondary: 210 35% 20%;
+    --secondary: 90 20% 15%;
     --secondary-foreground: 45 30% 95%;
 
-    --muted: 210 30% 18%;
-    --muted-foreground: 210 15% 65%;
+    --muted: 90 15% 18%;
+    --muted-foreground: 90 10% 60%;
 
-    --accent: 174 45% 45%;
-    --accent-foreground: 210 40% 12%;
+    --accent: 72 50% 45%;
+    --accent-foreground: 90 20% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 45 30% 95%;
 
-    --border: 210 25% 25%;
-    --input: 210 25% 25%;
-    --ring: 174 55% 55%;
+    --border: 90 20% 20%;
+    --input: 90 20% 20%;
+    --ring: 72 60% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.25rem;
 
-    /* Custom colors */
-    --navy: 210 40% 12%;
-    --navy-dark: 210 45% 8%;
-    --navy-light: 210 35% 18%;
-    --teal: 174 55% 55%;
-    --teal-dark: 174 45% 40%;
-    --teal-light: 174 60% 70%;
+    /* Custom colors - Forest/Pine theme */
+    --forest: 90 20% 8%;
+    --forest-dark: 90 25% 5%;
+    --forest-light: 90 15% 15%;
+    --pine: 72 60% 35%;
+    --pine-dark: 72 50% 25%;
+    --pine-light: 72 55% 50%;
     --cream: 45 30% 95%;
     --cream-dark: 45 20% 85%;
-    --gold: 38 75% 55%;
+    --bark: 30 25% 20%;
+    --gold: 45 80% 50%;
 
     /* Typography */
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'Open Sans', sans-serif;
+    --font-display: 'Oswald', sans-serif;
+    --font-body: 'Lato', sans-serif;
 
     /* Shadows */
-    --shadow-glow: 0 0 40px hsl(var(--teal) / 0.2);
-    --shadow-card: 0 10px 40px -10px hsl(var(--navy-dark) / 0.5);
+    --shadow-glow: 0 0 40px hsl(var(--pine) / 0.15);
+    --shadow-card: 0 10px 40px -10px hsl(var(--forest-dark) / 0.6);
 
     /* Sidebar */
-    --sidebar-background: 210 45% 10%;
+    --sidebar-background: 90 25% 6%;
     --sidebar-foreground: 45 30% 95%;
-    --sidebar-primary: 174 55% 55%;
-    --sidebar-primary-foreground: 210 40% 12%;
-    --sidebar-accent: 210 35% 20%;
+    --sidebar-primary: 72 60% 35%;
+    --sidebar-primary-foreground: 45 30% 95%;
+    --sidebar-accent: 90 20% 15%;
     --sidebar-accent-foreground: 45 30% 95%;
-    --sidebar-border: 210 25% 25%;
-    --sidebar-ring: 174 55% 55%;
+    --sidebar-border: 90 20% 20%;
+    --sidebar-ring: 72 60% 35%;
   }
 
   .dark {
-    --background: 210 40% 12%;
+    --background: 90 20% 8%;
     --foreground: 45 30% 95%;
 
-    --card: 210 45% 15%;
+    --card: 90 25% 12%;
     --card-foreground: 45 30% 95%;
 
-    --popover: 210 45% 15%;
+    --popover: 90 25% 12%;
     --popover-foreground: 45 30% 95%;
 
-    --primary: 174 55% 55%;
-    --primary-foreground: 210 40% 12%;
+    --primary: 72 60% 35%;
+    --primary-foreground: 45 30% 95%;
 
-    --secondary: 210 35% 20%;
+    --secondary: 90 20% 15%;
     --secondary-foreground: 45 30% 95%;
 
-    --muted: 210 30% 18%;
-    --muted-foreground: 210 15% 65%;
+    --muted: 90 15% 18%;
+    --muted-foreground: 90 10% 60%;
 
-    --accent: 174 45% 45%;
-    --accent-foreground: 210 40% 12%;
+    --accent: 72 50% 45%;
+    --accent-foreground: 90 20% 8%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 45 30% 95%;
 
-    --border: 210 25% 25%;
-    --input: 210 25% 25%;
-    --ring: 174 55% 55%;
+    --border: 90 20% 20%;
+    --input: 90 20% 20%;
+    --ring: 72 60% 35%;
     
-    --sidebar-background: 210 45% 10%;
+    --sidebar-background: 90 25% 6%;
     --sidebar-foreground: 45 30% 95%;
-    --sidebar-primary: 174 55% 55%;
-    --sidebar-primary-foreground: 210 40% 12%;
-    --sidebar-accent: 210 35% 20%;
+    --sidebar-primary: 72 60% 35%;
+    --sidebar-primary-foreground: 45 30% 95%;
+    --sidebar-accent: 90 20% 15%;
     --sidebar-accent-foreground: 45 30% 95%;
-    --sidebar-border: 210 25% 25%;
-    --sidebar-ring: 174 55% 55%;
+    --sidebar-border: 90 20% 20%;
+    --sidebar-ring: 72 60% 35%;
   }
 }
 
@@ -116,14 +117,18 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply font-display uppercase tracking-wider;
   }
 }
 
 @layer components {
   .pattern-trees {
-    background-image: url("data:image/svg+xml,%3Csvg width='120' height='60' viewBox='0 0 120 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0 L80 30 L70 30 L85 60 L35 60 L50 30 L40 30 Z' fill='%231a2742' stroke='%234dc9c1' stroke-width='2'/%3E%3Cline x1='60' y1='60' x2='60' y2='50' stroke='%234dc9c1' stroke-width='2'/%3E%3C/svg%3E");
-    background-repeat: repeat-x;
-    background-size: 120px 60px;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 10 L55 40 L48 40 L60 70 L20 70 L32 40 L25 40 Z' fill='none' stroke='%235a7a24' stroke-width='1' opacity='0.3'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 80px 80px;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-pine to-pine-light bg-clip-text text-transparent;
   }
 }

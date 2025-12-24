@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Playfair Display', 'serif'],
-        body: ['Open Sans', 'sans-serif'],
+        display: ['Oswald', 'sans-serif'],
+        body: ['Lato', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -61,20 +61,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        navy: {
-          DEFAULT: "hsl(var(--navy))",
-          dark: "hsl(var(--navy-dark))",
-          light: "hsl(var(--navy-light))",
+        forest: {
+          DEFAULT: "hsl(var(--forest))",
+          dark: "hsl(var(--forest-dark))",
+          light: "hsl(var(--forest-light))",
         },
-        teal: {
-          DEFAULT: "hsl(var(--teal))",
-          dark: "hsl(var(--teal-dark))",
-          light: "hsl(var(--teal-light))",
+        pine: {
+          DEFAULT: "hsl(var(--pine))",
+          dark: "hsl(var(--pine-dark))",
+          light: "hsl(var(--pine-light))",
         },
         cream: {
           DEFAULT: "hsl(var(--cream))",
           dark: "hsl(var(--cream-dark))",
         },
+        bark: "hsl(var(--bark))",
         gold: "hsl(var(--gold))",
       },
       borderRadius: {
