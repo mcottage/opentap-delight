@@ -17,6 +17,7 @@ const secondaryLinks = [
   { name: 'Our Story', href: '/our-story' },
   { name: 'Careers', href: '/careers' },
   { name: 'FAQ', href: '/faq' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 export const Header = () => {

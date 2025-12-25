@@ -13,6 +13,7 @@ import PrivateParties from "./pages/PrivateParties";
 import OurStory from "./pages/OurStory";
 import Careers from "./pages/Careers";
 import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
